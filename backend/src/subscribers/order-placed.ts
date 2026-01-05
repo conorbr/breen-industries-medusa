@@ -2,6 +2,7 @@ import { Modules } from '@medusajs/framework/utils'
 import { INotificationModuleService, IOrderModuleService } from '@medusajs/framework/types'
 import { SubscriberArgs, SubscriberConfig } from '@medusajs/medusa'
 import { EmailTemplates } from '../modules/email-notifications/templates'
+import { RESEND_REPLY_TO_EMAIL } from '../lib/constants'
 
 export default async function orderPlacedHandler({
   event: { data },
@@ -20,7 +21,7 @@ export default async function orderPlacedHandler({
       template: EmailTemplates.ORDER_PLACED,
       data: {
         emailOptions: {
-          replyTo: 'info@example.com',
+          replyTo: RESEND_REPLY_TO_EMAIL,
           subject: 'Your order has been placed'
         },
         order,
@@ -28,8 +29,14 @@ export default async function orderPlacedHandler({
         preview: 'Thank you for your order!'
       }
     })
+    console.log(`✅ Order confirmation email sent to ${order.email} for order ${order.display_id || order.id}`)
   } catch (error) {
-    console.error('Error sending order confirmation notification:', error)
+    console.error(`❌ Error sending order confirmation notification for order ${order.display_id || order.id}:`, error)
+    // Log full error details for debugging
+    if (error instanceof Error) {
+      console.error('Error message:', error.message)
+      console.error('Error stack:', error.stack)
+    }
   }
 }
 

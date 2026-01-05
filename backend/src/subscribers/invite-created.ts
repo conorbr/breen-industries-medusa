@@ -1,7 +1,7 @@
 import { INotificationModuleService, IUserModuleService } from '@medusajs/framework/types'
 import { Modules } from '@medusajs/framework/utils'
 import { SubscriberArgs, SubscriberConfig } from '@medusajs/framework'
-import { BACKEND_URL } from '../lib/constants'
+import { BACKEND_URL, RESEND_REPLY_TO_EMAIL } from '../lib/constants'
 import { EmailTemplates } from '../modules/email-notifications/templates'
 
 export default async function userInviteHandler({
@@ -22,15 +22,20 @@ export default async function userInviteHandler({
       template: EmailTemplates.INVITE_USER,
       data: {
         emailOptions: {
-          replyTo: 'info@example.com',
+          replyTo: RESEND_REPLY_TO_EMAIL,
           subject: "You've been invited to Medusa!"
         },
         inviteLink: `${BACKEND_URL}/app/invite?token=${invite.token}`,
         preview: 'The administration dashboard awaits...'
       }
     })
+    console.log(`✅ Invite email sent to ${invite.email}`)
   } catch (error) {
-    console.error(error)
+    console.error(`❌ Error sending invite email to ${invite.email}:`, error)
+    if (error instanceof Error) {
+      console.error('Error message:', error.message)
+      console.error('Error stack:', error.stack)
+    }
   }
 }
 

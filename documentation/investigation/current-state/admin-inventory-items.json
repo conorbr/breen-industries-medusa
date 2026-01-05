@@ -1,0 +1,967 @@
+{
+  "inventory_items": [
+    {
+      "id": "iitem_01KE2S8MDZ692MRKSPYW3Z52KF",
+      "sku": "SHIRT-S-BLACK",
+      "title": "S / Black",
+      "description": "S / Black",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.642Z",
+      "updated_at": "2026-01-03T20:37:28.642Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHVAAX7KSD28S8HF0E4",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8MDZ692MRKSPYW3Z52KF",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.765Z",
+          "updated_at": "2026-01-03T20:37:28.765Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8MDZHP3Z8W07PH5PA6XG",
+      "sku": "SHIRT-S-WHITE",
+      "title": "S / White",
+      "description": "S / White",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHW7QA6TK8WN441MRQ3",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8MDZHP3Z8W07PH5PA6XG",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME0BYSRQ2JSGC70DP04",
+      "sku": "SHIRT-M-WHITE",
+      "title": "M / White",
+      "description": "M / White",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHWW9TDXMXYXV6T7ZM4",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME0BYSRQ2JSGC70DP04",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME0HPSG1A1RB32XBZV9",
+      "sku": "SHIRT-XL-BLACK",
+      "title": "XL / Black",
+      "description": "XL / Black",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHWQ9RXNVDJZ6V0D4PQ",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME0HPSG1A1RB32XBZV9",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME0JQZWM5QKFCWY6NG6",
+      "sku": "SHIRT-M-BLACK",
+      "title": "M / Black",
+      "description": "M / Black",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHWJTT9AQV98F9WABPS",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME0JQZWM5QKFCWY6NG6",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME0Q6FZH8E597R74VJG",
+      "sku": "SHIRT-L-BLACK",
+      "title": "L / Black",
+      "description": "L / Black",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHWQAD1BE982FCZ0Q19",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME0Q6FZH8E597R74VJG",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME0T7FSWJ2PJB51F80M",
+      "sku": "SHIRT-XL-WHITE",
+      "title": "XL / White",
+      "description": "XL / White",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHW92K3GYSF5GA7JTPH",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME0T7FSWJ2PJB51F80M",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME0WF0Q78EP52S6C3Z3",
+      "sku": "SHIRT-L-WHITE",
+      "title": "L / White",
+      "description": "L / White",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHWQGKN1S7RWVBNWS2P",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME0WF0Q78EP52S6C3Z3",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME16Y94952FVZ7RM67K",
+      "sku": "SWEATSHIRT-L",
+      "title": "L",
+      "description": "L",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHWK5QMEADF0ZPJCE2K",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME16Y94952FVZ7RM67K",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME19CFRG29CWQZTT8RS",
+      "sku": "SWEATPANTS-XL",
+      "title": "XL",
+      "description": "XL",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHWYDCZ7SRKFAV43D8N",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME19CFRG29CWQZTT8RS",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME1A5X4CGP8E37VBJ44",
+      "sku": "SWEATPANTS-L",
+      "title": "L",
+      "description": "L",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHXRZYAFNDEX9TY7JTJ",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME1A5X4CGP8E37VBJ44",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME1BZEG4BM38CJ91Q0A",
+      "sku": "SWEATPANTS-M",
+      "title": "M",
+      "description": "M",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHX3GJWM5YJFRN2YD04",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME1BZEG4BM38CJ91Q0A",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME1CXAM8YY3R1AHABQ1",
+      "sku": "SWEATSHIRT-XL",
+      "title": "XL",
+      "description": "XL",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHXDZ65N27K3RX3WXXR",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME1CXAM8YY3R1AHABQ1",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME1HSB17EPYJC6PTTF5",
+      "sku": "SWEATSHIRT-M",
+      "title": "M",
+      "description": "M",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 1,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHXZW02WDH293AGG484",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME1HSB17EPYJC6PTTF5",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "1",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:52:28.307Z",
+          "deleted_at": null,
+          "available_quantity": 999999,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 1,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME1J529PEYZA73B6R27",
+      "sku": "SWEATSHIRT-S",
+      "title": "S",
+      "description": "S",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHXXVF26TFZX975JYRT",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME1J529PEYZA73B6R27",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME1WWPG369CZ8PCYNA1",
+      "sku": "SWEATPANTS-S",
+      "title": "S",
+      "description": "S",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHX01CJDTG8CRNKC9MC",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME1WWPG369CZ8PCYNA1",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME232NBK7VS6MCN1DQP",
+      "sku": "SHORTS-S",
+      "title": "S",
+      "description": "S",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHX81H6JVG792JGH0Q7",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME232NBK7VS6MCN1DQP",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME2GZB41MVZPS4ACZG5",
+      "sku": "SHORTS-L",
+      "title": "L",
+      "description": "L",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHX20EC4B7C38KETG3V",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME2GZB41MVZPS4ACZG5",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME2MAW3A5GC20BV8077",
+      "sku": "SHORTS-XL",
+      "title": "XL",
+      "description": "XL",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHXW3QYD80VGJYQ36JN",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME2MAW3A5GC20BV8077",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    },
+    {
+      "id": "iitem_01KE2S8ME2T3ZDP4MMR14KBRZG",
+      "sku": "SHORTS-M",
+      "title": "M",
+      "description": "M",
+      "thumbnail": null,
+      "origin_country": null,
+      "hs_code": null,
+      "requires_shipping": true,
+      "mid_code": null,
+      "material": null,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "metadata": null,
+      "reserved_quantity": 0,
+      "stocked_quantity": 1000000,
+      "created_at": "2026-01-03T20:37:28.643Z",
+      "updated_at": "2026-01-03T20:37:28.643Z",
+      "location_levels": [
+        {
+          "id": "ilev_01KE2S8MHX3KBF2K321CZDYDQQ",
+          "location_id": "sloc_01KE2S8M23J3YDMH38SVSFWRMZ",
+          "metadata": null,
+          "inventory_item_id": "iitem_01KE2S8ME2T3ZDP4MMR14KBRZG",
+          "raw_stocked_quantity": {
+            "value": "1000000",
+            "precision": 20
+          },
+          "raw_reserved_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "raw_incoming_quantity": {
+            "value": "0",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.766Z",
+          "updated_at": "2026-01-03T20:37:28.766Z",
+          "deleted_at": null,
+          "available_quantity": 1000000,
+          "stocked_quantity": 1000000,
+          "reserved_quantity": 0,
+          "incoming_quantity": 0
+        }
+      ]
+    }
+  ],
+  "count": 20,
+  "offset": 0,
+  "limit": 20
+}

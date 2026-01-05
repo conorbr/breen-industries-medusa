@@ -1,0 +1,297 @@
+{
+  "shipping_options": [
+    {
+      "id": "so_01KE2S8M5HRXXS9XQEW82YVW5T",
+      "name": "Standard Shipping",
+      "price_type": "flat",
+      "data": null,
+      "provider_id": "manual_manual",
+      "metadata": null,
+      "created_at": "2026-01-03T20:37:28.371Z",
+      "updated_at": "2026-01-03T20:37:28.371Z",
+      "service_zone_id": "serzo_01KE2S8M3CEXVCP0F2ZGJKQ4XB",
+      "shipping_profile_id": "sp_01KE2S8BZXK1CKBQ319YBWX4ED",
+      "rules": [
+        {
+          "id": "sorul_01KE2S8M5HCCPXGEKYPH9JFCYQ",
+          "attribute": "enabled_in_store",
+          "operator": "eq",
+          "value": "true",
+          "shipping_option_id": "so_01KE2S8M5HRXXS9XQEW82YVW5T",
+          "created_at": "2026-01-03T20:37:28.372Z",
+          "updated_at": "2026-01-03T20:37:28.372Z",
+          "deleted_at": null
+        },
+        {
+          "id": "sorul_01KE2S8M5H85EPGSC54F70VS52",
+          "attribute": "is_return",
+          "operator": "eq",
+          "value": "false",
+          "shipping_option_id": "so_01KE2S8M5HRXXS9XQEW82YVW5T",
+          "created_at": "2026-01-03T20:37:28.372Z",
+          "updated_at": "2026-01-03T20:37:28.372Z",
+          "deleted_at": null
+        }
+      ],
+      "type": {
+        "id": "sotype_01KE2S8M5G28AGNS7T5N4N26V6",
+        "label": "Standard",
+        "description": "Ship in 2-3 days.",
+        "code": "standard",
+        "created_at": "2026-01-03T20:37:28.370Z",
+        "updated_at": "2026-01-03T20:37:28.370Z",
+        "deleted_at": null
+      },
+      "service_zone": {
+        "id": "serzo_01KE2S8M3CEXVCP0F2ZGJKQ4XB",
+        "name": "Europe",
+        "fulfillment_set_id": "fuset_01KE2S8M3DJ42Q56EHBSYREYQ1",
+        "fulfillment_set": {
+          "id": "fuset_01KE2S8M3DJ42Q56EHBSYREYQ1"
+        },
+        "metadata": null,
+        "created_at": "2026-01-03T20:37:28.301Z",
+        "updated_at": "2026-01-03T20:37:28.301Z",
+        "deleted_at": null
+      },
+      "shipping_profile": {
+        "id": "sp_01KE2S8BZXK1CKBQ319YBWX4ED",
+        "name": "Default Shipping Profile",
+        "type": "default",
+        "metadata": null,
+        "created_at": "2026-01-03T20:37:19.998Z",
+        "updated_at": "2026-01-03T20:37:19.998Z",
+        "deleted_at": null
+      },
+      "provider": {
+        "id": "manual_manual",
+        "is_enabled": true,
+        "created_at": "2026-01-03T20:37:18.822Z",
+        "updated_at": "2026-01-03T20:37:18.822Z",
+        "deleted_at": null
+      },
+      "prices": [
+        {
+          "id": "price_01KE2S8M6H99Z0WRQ6V6A4HMJ1",
+          "title": null,
+          "currency_code": "usd",
+          "min_quantity": null,
+          "max_quantity": null,
+          "rules_count": 0,
+          "price_set_id": "pset_01KE2S8M6JR1CNKQ3PHCHY21VF",
+          "price_list_id": null,
+          "price_list": null,
+          "raw_amount": {
+            "value": "10",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.404Z",
+          "updated_at": "2026-01-03T20:37:28.404Z",
+          "deleted_at": null,
+          "price_rules": [],
+          "amount": 10
+        },
+        {
+          "id": "price_01KE2S8M6HT4CP98531ZN09KGE",
+          "title": null,
+          "currency_code": "eur",
+          "min_quantity": null,
+          "max_quantity": null,
+          "rules_count": 0,
+          "price_set_id": "pset_01KE2S8M6JR1CNKQ3PHCHY21VF",
+          "price_list_id": null,
+          "price_list": null,
+          "raw_amount": {
+            "value": "10",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.405Z",
+          "updated_at": "2026-01-03T20:37:28.405Z",
+          "deleted_at": null,
+          "price_rules": [],
+          "amount": 10
+        },
+        {
+          "id": "price_01KE2S8M6JXE8EPR424RC5MRR1",
+          "title": null,
+          "currency_code": "eur",
+          "min_quantity": null,
+          "max_quantity": null,
+          "rules_count": 1,
+          "price_set_id": "pset_01KE2S8M6JR1CNKQ3PHCHY21VF",
+          "price_list_id": null,
+          "price_list": null,
+          "raw_amount": {
+            "value": "10",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.405Z",
+          "updated_at": "2026-01-03T20:37:28.405Z",
+          "deleted_at": null,
+          "price_rules": [
+            {
+              "id": "prule_01KE2S8M6JBT02WQ6GT8RAHQZF",
+              "attribute": "region_id",
+              "value": "reg_01KE2S8KZPVKHCYJ40NJK9X2YK",
+              "operator": "eq",
+              "priority": 0,
+              "price_id": "price_01KE2S8M6JXE8EPR424RC5MRR1",
+              "created_at": "2026-01-03T20:37:28.405Z",
+              "updated_at": "2026-01-03T20:37:28.405Z",
+              "deleted_at": null
+            }
+          ],
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "so_01KE2S8M5JHKPWZWA01Q5VKM14",
+      "name": "Express Shipping",
+      "price_type": "flat",
+      "data": null,
+      "provider_id": "manual_manual",
+      "metadata": null,
+      "created_at": "2026-01-03T20:37:28.371Z",
+      "updated_at": "2026-01-03T20:37:28.371Z",
+      "service_zone_id": "serzo_01KE2S8M3CEXVCP0F2ZGJKQ4XB",
+      "shipping_profile_id": "sp_01KE2S8BZXK1CKBQ319YBWX4ED",
+      "rules": [
+        {
+          "id": "sorul_01KE2S8M5JC4QW156YEEQ0YRJB",
+          "attribute": "enabled_in_store",
+          "operator": "eq",
+          "value": "true",
+          "shipping_option_id": "so_01KE2S8M5JHKPWZWA01Q5VKM14",
+          "created_at": "2026-01-03T20:37:28.372Z",
+          "updated_at": "2026-01-03T20:37:28.372Z",
+          "deleted_at": null
+        },
+        {
+          "id": "sorul_01KE2S8M5JRBB8P2M265T58X1Z",
+          "attribute": "is_return",
+          "operator": "eq",
+          "value": "false",
+          "shipping_option_id": "so_01KE2S8M5JHKPWZWA01Q5VKM14",
+          "created_at": "2026-01-03T20:37:28.372Z",
+          "updated_at": "2026-01-03T20:37:28.372Z",
+          "deleted_at": null
+        }
+      ],
+      "type": {
+        "id": "sotype_01KE2S8M5HTW63NYKBR6CQ7P9G",
+        "label": "Express",
+        "description": "Ship in 24 hours.",
+        "code": "express",
+        "created_at": "2026-01-03T20:37:28.371Z",
+        "updated_at": "2026-01-03T20:37:28.371Z",
+        "deleted_at": null
+      },
+      "service_zone": {
+        "id": "serzo_01KE2S8M3CEXVCP0F2ZGJKQ4XB",
+        "name": "Europe",
+        "fulfillment_set_id": "fuset_01KE2S8M3DJ42Q56EHBSYREYQ1",
+        "fulfillment_set": {
+          "id": "fuset_01KE2S8M3DJ42Q56EHBSYREYQ1"
+        },
+        "metadata": null,
+        "created_at": "2026-01-03T20:37:28.301Z",
+        "updated_at": "2026-01-03T20:37:28.301Z",
+        "deleted_at": null
+      },
+      "shipping_profile": {
+        "id": "sp_01KE2S8BZXK1CKBQ319YBWX4ED",
+        "name": "Default Shipping Profile",
+        "type": "default",
+        "metadata": null,
+        "created_at": "2026-01-03T20:37:19.998Z",
+        "updated_at": "2026-01-03T20:37:19.998Z",
+        "deleted_at": null
+      },
+      "provider": {
+        "id": "manual_manual",
+        "is_enabled": true,
+        "created_at": "2026-01-03T20:37:18.822Z",
+        "updated_at": "2026-01-03T20:37:18.822Z",
+        "deleted_at": null
+      },
+      "prices": [
+        {
+          "id": "price_01KE2S8M6KPWPVAQXF5EHSNY2X",
+          "title": null,
+          "currency_code": "usd",
+          "min_quantity": null,
+          "max_quantity": null,
+          "rules_count": 0,
+          "price_set_id": "pset_01KE2S8M6MHW3VDD8THEKY0VRV",
+          "price_list_id": null,
+          "price_list": null,
+          "raw_amount": {
+            "value": "10",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.405Z",
+          "updated_at": "2026-01-03T20:37:28.405Z",
+          "deleted_at": null,
+          "price_rules": [],
+          "amount": 10
+        },
+        {
+          "id": "price_01KE2S8M6KE33EPDR2TC60VC0G",
+          "title": null,
+          "currency_code": "eur",
+          "min_quantity": null,
+          "max_quantity": null,
+          "rules_count": 0,
+          "price_set_id": "pset_01KE2S8M6MHW3VDD8THEKY0VRV",
+          "price_list_id": null,
+          "price_list": null,
+          "raw_amount": {
+            "value": "10",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.405Z",
+          "updated_at": "2026-01-03T20:37:28.405Z",
+          "deleted_at": null,
+          "price_rules": [],
+          "amount": 10
+        },
+        {
+          "id": "price_01KE2S8M6K3SQYDB8XYBWTYRVE",
+          "title": null,
+          "currency_code": "eur",
+          "min_quantity": null,
+          "max_quantity": null,
+          "rules_count": 1,
+          "price_set_id": "pset_01KE2S8M6MHW3VDD8THEKY0VRV",
+          "price_list_id": null,
+          "price_list": null,
+          "raw_amount": {
+            "value": "10",
+            "precision": 20
+          },
+          "created_at": "2026-01-03T20:37:28.405Z",
+          "updated_at": "2026-01-03T20:37:28.405Z",
+          "deleted_at": null,
+          "price_rules": [
+            {
+              "id": "prule_01KE2S8M6KBXTEESH3722HXD4T",
+              "attribute": "region_id",
+              "value": "reg_01KE2S8KZPVKHCYJ40NJK9X2YK",
+              "operator": "eq",
+              "priority": 0,
+              "price_id": "price_01KE2S8M6K3SQYDB8XYBWTYRVE",
+              "created_at": "2026-01-03T20:37:28.405Z",
+              "updated_at": "2026-01-03T20:37:28.405Z",
+              "deleted_at": null
+            }
+          ],
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "count": 2,
+  "offset": 0,
+  "limit": 20
+}

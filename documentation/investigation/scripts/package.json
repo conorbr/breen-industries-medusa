@@ -1,0 +1,15 @@
+{
+  "name": "investigation-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for investigating Medusa backend configuration",
+  "scripts": {
+    "query": "node query-current-state.js",
+    "query:sdk": "node query-current-state-sdk.js",
+    "test-auth": "node test-auth.js"
+  },
+  "dependencies": {
+    "@medusajs/js-sdk": "^2.12.1",
+    "@medusajs/types": "^2.12.1"
+  }
+}
+
